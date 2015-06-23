@@ -3,7 +3,7 @@ require "new_mach_gem"
 
 module NewMath
   class MathPackage < NewMachGem::MathematicalOperations
-  	def self.sin_and_cos
+  	def self.sin_and_cos(x1,str)
   	  if(str=='sin')
         result=Math.sin(x1)
       elsif(str=='cos')
